@@ -1,0 +1,91 @@
+.cat-navbar { 
+  background-color: #9BABB8; 
+  border-color: #D7C0AE; 
+  border-radius: 0; 
+  margin-bottom: 0px; 
+} 
+
+
+ 
+.carousel { 
+  margin-top: 20px; /* Atur nilai jarak yang diinginkan antara carousel dan konten di bawahnya */ 
+} 
+ 
+ 
+.cat-navbar .navbar-brand { 
+  display: flex; 
+  align-items: center; 
+  color: #967E76; 
+} 
+
+.logo { 
+  width: 150px; /* Atur lebar logo sesuai kebutuhan */ 
+  height: auto; /* Biarkan tinggi logo mengikuti proporsi aslinya */ 
+} 
+ 
+ 
+.cat-navbar .navbar-brand .logo { 
+  width: 30px; 
+  height: 30px; 
+  margin-right: 5px; 
+} 
+ 
+.cat-navbar .navbar-brand .logo-text { 
+  font-size: 18px; 
+  font-weight: bold; 
+} 
+ 
+.cat-navbar .nav>li>a { 
+  color: #e7ceba; 
+} 
+ 
+.cat-navbar .nav>li>a:hover, 
+.cat-navbar .nav>li>a:focus { 
+  color: #967E76; 
+  background-color: transparent; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu { 
+  background-color: #EEE3CB; 
+  border: none; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu>li>a { 
+  color: #967E76; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu>li>a:hover, 
+.cat-navbar .nav .dropdown-menu>li>a:focus { 
+  color: #D7C0AE; 
+  background-color: #EEE3CB; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu>li:last-child>a { 
+  border-bottom: none; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu>li>a .ion-icon { 
+  margin-right: 5px; 
+} 
+ 
+.cat-navbar .nav .dropdown-menu>li>a:hover .ion-icon, 
+.cat-navbar .nav .dropdown-menu>li>a:focus .ion-icon { 
+  color: #D7C0AE; 
+} 
+ 
+.cat-navbar .navbar-form .input-group .form-control { 
+  background-color: #EEE3CB; 
+  color: #545B77; 
+  border-color: #D7C0AE; 
+} 
+ 
+.cat-navbar .navbar-form .input-group .btn-primary { 
+  background-color: #D7C0AE; 
+  border-color: #D7C0AE; 
+} 
+ 
+.cat-navbar .navbar-form .input-group .btn-primary:hover, 
+.cat-navbar .navbar-form .input-group .btn-primary:focus { 
+  background-color: #967E76; 
+  border-color: #967E76; 
+}
